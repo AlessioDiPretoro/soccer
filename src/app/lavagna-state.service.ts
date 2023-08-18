@@ -1,11 +1,13 @@
 import { Injectable } from '@angular/core';
 import { ElementPosition } from './Interfaces/element-position';
 import { AllMoves } from './Interfaces/all-moves';
+import { AuthService } from './Pages/auth/auth.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class LavagnaStateService {
+  constructor(private authSrv: AuthService) {}
   private elementPositions: ElementPosition[] = [
     { id: 1, x: 37, y: 219 },
     { id: 2, x: 179, y: 225 },
@@ -69,6 +71,9 @@ export class LavagnaStateService {
     this.allTattics.push({ ...this.newTattic });
     console.log('allTattics', this.allTattics);
     this.isRecording = false;
+
+    //salva nello user:
+    this.authSrv.updateTattics(this.newTattic);
 
     //resetta newTattic per poterne farne una nuova
     this.newTattic = {

@@ -1,20 +1,40 @@
 {
   "users": [
     {
-      "email": "mutu@mailinator.com",
-      "password": "$2a$10$uuf327bODWlRc25dOMOIu.VZCjOjjIFSzdGW0vNJ5mclRzX6pKNUi",
-      "uName": "Ea autem possimus i",
-      "surname": "Tempor est ut eaque ",
+      "email": "p@p",
+      "password": "$2a$10$h.OUNP8wy5lOJnyB5q8GXu6CxtYNlw/ZDnXAWa2LnfeS2fSWH5/MK",
+      "uName": "3333333",
+      "surname": "Ea vel culpa est et",
       "passwordConf": "password",
-      "id": 1
+      "id": 1,
+      "allTattics": []
     },
     {
-      "email": "p@p",
-      "password": "$2a$10$26qWTMkFLsSFNMcZ/0QJ/uMI9CwBkCSY.YB6mqjVcaxJ9tp6Yf2eq",
-      "uName": "Et pariatur Volupta",
-      "surname": "Corporis cum quasi t",
+      "email": "qakure@mailinator.com",
+      "password": "$2a$10$cUllOAOaCvUo/M0und25ce1muyf3.wre/lfQb3i8LJnACJ.UspllW",
+      "uName": "Voluptas id incidid",
+      "surname": "Velit alias volupta",
       "passwordConf": "password",
-      "id": 2
+      "id": 2,
+      "allTattics": []
+    },
+    {
+      "email": "sopenuf@mailinator.com",
+      "password": "$2a$10$PqPDB/Bz5XEekQA/dkbSQent5T3076IhifoZOLhsfb2aom.oqaXdm",
+      "uName": "Proident quia obcae",
+      "surname": "Do alias ut aliquip ",
+      "passwordConf": "password",
+      "id": 3,
+      "allTattics": []
+    },
+    {
+      "email": "sajohyq@mailinator.com",
+      "password": "$2a$10$TbbRIN0O5ohw1TkQ8zRti.TrCjfblklVgM25S93T8X03e2OsbxA.y",
+      "uName": "Aliquam ea et corpor",
+      "surname": "Anim ad lorem tempor",
+      "passwordConf": "password",
+      "id": 4,
+      "allTattics": []
     }
   ]
 }

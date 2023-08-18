@@ -42,27 +42,28 @@ export class RegisterComponent {
       id: this.fb.control(null),
     });
 
-    if (this._Activatedroute.snapshot.paramMap.get('id')) {
-      this.isId = true;
-      this.isLoading = true;
-      this.form.disable();
-      this.authSrv
-        .readThisUser(this._Activatedroute.snapshot.paramMap.get('id')!)
-        .subscribe((res) => {
-          console.log('res', res);
-          this.responseUser = res as IResponse;
-          this.form.setValue({
-            email: this.responseUser.email,
-            uName: this.responseUser.uName,
-            surname: this.responseUser.surname,
-            password: '',
-            passwordConf: '',
-            id: this.responseUser.id,
-          });
-          this.isLoading = false;
-          this.form.enable();
-        });
-    }
+    //server per modificare
+    // if (this._Activatedroute.snapshot.paramMap.get('id')) {
+    //   this.isId = true;
+    //   this.isLoading = true;
+    //   this.form.disable();
+    //   this.authSrv
+    //     .readThisUser(this._Activatedroute.snapshot.paramMap.get('id')!)
+    //     .subscribe((res) => {
+    //       console.log('res', res);
+    //       this.responseUser = res as IResponse;
+    //       this.form.setValue({
+    //         email: this.responseUser.email,
+    //         uName: this.responseUser.uName,
+    //         surname: this.responseUser.surname,
+    //         password: '',
+    //         passwordConf: '',
+    //         id: this.responseUser.id,
+    //       });
+    //       this.isLoading = false;
+    //       this.form.enable();
+    //     });
+    // }
   }
 
   sendUser() {
@@ -70,6 +71,7 @@ export class RegisterComponent {
       console.log('VALID', this.form);
       this.form.disable();
       this.thisUser = this.form.value;
+      this.thisUser.allTattics = [];
       this.authSrv.signUp(this.thisUser).subscribe((res) => {
         // console.log('registrato');
         this.createdMessage = false;

@@ -1,3 +1,4 @@
+import { AllMoves } from './../../Interfaces/all-moves';
 import { Injectable } from '@angular/core';
 import { IAccessData } from './interfaces/iaccess-data';
 import { BehaviorSubject, map, tap } from 'rxjs';
@@ -23,6 +24,9 @@ export class AuthService {
   private authSubject = new BehaviorSubject<null | IAccessData>(null); //null è il valore di default, quindi si parte con utente non loggato
   user$ = this.authSubject.asObservable(); //contiene dati sull'utente se è loggato
   isLoggedIn$ = this.user$.pipe(map((user) => !!user)); //serve per la verifica, capta la presenza(o meno) dello user e mi restituisce un bool (false se il subject riceve null)
+
+  // tatticUserUrl: string =
+  //   this.apiUrl + '/users/' + this.authSubject.value.user.id + '/allTattics';
 
   autoLogoutTimer: any; //riferimento al timer che slogga l'utente quando il jwt è scaduto
 
@@ -76,6 +80,55 @@ export class AuthService {
 
   updateUser(data: IResponse) {
     return this.http.put(this.usersUrl + '/' + data.id, data);
+  }
+
+  updateTattics(newT: AllMoves) {
+    // console.log('this.authSubject.value', this.authSubject.value); //ricevuto
+    // console.log(
+    //   'this.authSubject.value?.user.allTattics',
+    //   this.authSubject.value?.user.allTattics
+    // );
+    // if (this.authSubject.value?.user.allTattics) {
+    //   let len = this.authSubject.value!.user.allTattics.length;
+    //   // this.authSubject.value?.user.allTattics[len] = []
+    //   console.log('ok crea salvataggio');
+    //   console.log('this newT: ', newT);
+    //   newT.positions.forEach((el) => {
+    //     console.log('this el: ', el);
+    //     console.log('last ', this.authSubject.value?.user.allTattics[len]);
+
+    //     // this.authSubject.value?.user.allTattics[len].positions.push({ ...el });
+    //   });
+    //   this.authSubject.value?.user.allTattics.push({ ...newT });
+    //   console.log('Salved?: ', this.authSubject.value?.user.allTattics);
+
+    //   // this.authSubject.value?.user.allTattics = [];
+    // } else {
+    //   console.log('ERRORE nel DB: Non esiste');
+    // }
+
+    console.log(
+      this.usersUrl + '/' + this.authSubject.value?.user.id + '/allTattics'
+    );
+    console.log('this.user$', this.user$);
+    console.log('this.auth', this.authSubject);
+    this.authSubject.value!.user.allTattics.push(newT);
+    this.authSubject.value!.user.uName = '555555555';
+    // this.authSubject.value!.user.allTattics[0].name = newT.name;
+    // newT.positions.forEach((el) => {
+    //   this.authSubject.value!.user.allTattics[0].positions.push({ ...el });
+    // });
+    console.log('preSave: ', this.authSubject.value!.user);
+
+    return this.http.patch(
+      this.usersUrl + '/' + this.authSubject.value!.user.id,
+      this.authSubject.value!.user
+    );
+    // this.authSubject.value?.user.allTattics.push({ ...newT });
+    // return this.http.put(
+    //   this.usersUrl + '/' + this.authSubject.value?.user.id,
+    //   this.authSubject.value?.user
+    // );
   }
 
   readAllUsers() {
