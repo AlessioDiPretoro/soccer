@@ -1,0 +1,112 @@
+<h5 class="m-3 text-center">Modulo di registrazione</h5>
+<div class="spinner-border text-secondary loader" *ngIf="isLoading"></div>
+<!-- <ngb-alert *ngIf="!staticAlertClosed" [dismissible]="false">
+  <strong>Utente modificato con successo</strong> Stai per essere redirezionato
+  alla tua home page.
+</ngb-alert>
+<ngb-alert *ngIf="!createdMessage" [dismissible]="false">
+  <strong>Utente CREATO con successo</strong> Stai per essere redirezionato alla
+  tua home page.
+</ngb-alert> -->
+<form [formGroup]="form" class="mt-3 mb-5">
+  <div class="form-group">
+    <label for="uName">Nome:</label>
+    <input
+      type="text"
+      formControlName="uName"
+      placeholder="Name"
+      class="form-control"
+    />
+    <label for="surname">Cognome:</label>
+    <input
+      type="text"
+      formControlName="surname"
+      placeholder="Surname"
+      class="form-control"
+    />
+    <!-- <div formGroupName="> -->
+    <div class="inputContainer">
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        formControlName="email"
+        placeholder="email"
+        class="form-control"
+      />
+      <span *ngIf="!isValid('email') && isTouched('email')"
+        >Inserire un'email valida.
+        <!-- {{ getMessage("form") }} -->
+      </span>
+    </div>
+    <div class="inputContainer">
+      <label for="password">Inserire una password valida</label>
+      <input
+        type="password"
+        formControlName="password"
+        placeholder="password"
+        class="form-control"
+      />
+      <span *ngIf="!isValid('password') && isTouched('password')"
+        >Inserire password
+      </span>
+    </div>
+    <!-- </div> -->
+    <div class="inputContainer">
+      <label for="passwordConf">Confermare la password</label>
+      <input
+        type="password"
+        formControlName="passwordConf"
+        placeholder="Conferma password"
+        class="form-control"
+      />
+      <span *ngIf="!isValid('passwordConf') && isTouched('passwordConf')"
+        >Confermare password
+      </span>
+      <span
+        class="errorMessage"
+        *ngIf="
+          isValid('passwordConf') &&
+          !isPassword('passwordConf', 'password') &&
+          isTouched('passwordConf')
+        "
+        >Password diverse
+      </span>
+      <span
+        class="okMessage"
+        *ngIf="
+          isValid('passwordConf') &&
+          isPassword('passwordConf', 'password') &&
+          isTouched('passwordConf')
+        "
+        >Password ok
+      </span>
+    </div>
+    <div *ngIf="isId">
+      <label for="id">ID</label>
+      <input
+        type="text"
+        formControlName="id"
+        placeholder="id"
+        class="form-control"
+      />
+    </div>
+    <div *ngIf="!isId">
+      <button
+        [disabled]="isLoading"
+        class="btn btn-primary"
+        (click)="sendUser()"
+      >
+        Conferma User
+      </button>
+    </div>
+    <div *ngIf="isId">
+      <button
+        [disabled]="isLoading"
+        class="btn btn-primary"
+        (click)="editUser()"
+      >
+        Modifica User
+      </button>
+    </div>
+  </div>
+</form>

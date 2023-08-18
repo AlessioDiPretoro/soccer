@@ -1,4 +1,4 @@
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +9,9 @@ import { HomeComponent } from './Pages/home/home.component';
 import { SoccerFieldComponent } from './Pages/soccer-field/soccer-field.component';
 import { DraggableDirective } from './draggable.directive';
 import { NgFor } from '@angular/common';
+import { LoginComponent } from './Pages/auth/login/login.component';
+import { RegisterComponent } from './Pages/auth/register/register.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,8 +21,17 @@ import { NgFor } from '@angular/common';
     HomeComponent,
     SoccerFieldComponent,
     DraggableDirective,
+    LoginComponent,
+    RegisterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, NgFor],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    NgFor,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

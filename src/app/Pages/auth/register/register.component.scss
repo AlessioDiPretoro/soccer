@@ -1,0 +1,33 @@
+div span {
+  position: absolute;
+  font-weight: 900;
+  top: 60%;
+  left: 20%;
+  padding: 0.2em;
+  border-radius: 10px;
+}
+
+label {
+  margin: 1em 0 0 1em;
+}
+
+.inputContainer {
+  position: relative;
+}
+.errorMessage {
+  background-color: red;
+  color: white;
+}
+.okMessage {
+  background-color: rgb(0, 155, 21);
+  color: white;
+}
+
+.loader {
+  padding: 10em;
+  position: absolute;
+  z-index: 200;
+  left: 30%;
+  border-width: 2rem;
+  color: #80808059 !important;
+}

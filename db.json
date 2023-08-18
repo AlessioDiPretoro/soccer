@@ -1,2 +1,20 @@
 {
-  "users": [  ]}
+  "users": [
+    {
+      "email": "mutu@mailinator.com",
+      "password": "$2a$10$uuf327bODWlRc25dOMOIu.VZCjOjjIFSzdGW0vNJ5mclRzX6pKNUi",
+      "uName": "Ea autem possimus i",
+      "surname": "Tempor est ut eaque ",
+      "passwordConf": "password",
+      "id": 1
+    },
+    {
+      "email": "p@p",
+      "password": "$2a$10$26qWTMkFLsSFNMcZ/0QJ/uMI9CwBkCSY.YB6mqjVcaxJ9tp6Yf2eq",
+      "uName": "Et pariatur Volupta",
+      "surname": "Corporis cum quasi t",
+      "passwordConf": "password",
+      "id": 2
+    }
+  ]
+}
