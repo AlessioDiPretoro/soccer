@@ -1,0 +1,34 @@
+<div class="buttonsBoard">
+  <a class="button" *ngIf="!isSave" (click)="newRec()">New</a>
+  <a class="button" *ngIf="isSave" (click)="save()">Save</a>
+  <a class="button" *ngIf="isSave" (click)="delet()">Delete</a>
+  <a class="button" *ngIf="!isSave" (click)="loadAllTattics()">Load</a>
+  <a class="button" *ngIf="!isSave" (click)="clear()">Clear</a>
+</div>
+<div *ngIf="isNewInput" class="input">
+  <form (ngSubmit)="startRec(f)" #f="ngForm">
+    <input type="text" ngModel placeholder="Nome Tattica" name="nome" />
+    <button class="button">V</button>
+  </form>
+</div>
+<div *ngIf="isLoad" class="tattList">
+  <a *ngFor="let tattic of allTattics" (click)="loadThisTattic(tattic)">{{
+    tattic.name
+  }}</a>
+  <a class="close" (click)="isLoad = false">X</a>
+</div>
+<div class="lavagna">
+  <!-- <img url="../../../../assets/img/FutsalPitchGreen.png" alt="NonTrovata" /> -->
+  <div class="elemento t1" #elemento data-id="1" appDraggable>1</div>
+  <div class="elemento t1" #elemento data-id="2" appDraggable>2</div>
+  <div class="elemento t1" #elemento data-id="3" appDraggable>3</div>
+  <div class="elemento t1" #elemento data-id="4" appDraggable>4</div>
+  <div class="elemento t1" #elemento data-id="5" appDraggable>5</div>
+  <div class="elemento ball" #elemento data-id="11" appDraggable>0</div>
+  <div class="elemento t2" #elemento data-id="6" appDraggable>1</div>
+  <div class="elemento t2" #elemento data-id="7" appDraggable>2</div>
+  <div class="elemento t2" #elemento data-id="8" appDraggable>3</div>
+  <div class="elemento t2" #elemento data-id="9" appDraggable>4</div>
+  <div class="elemento t2" #elemento data-id="10" appDraggable>5</div>
+  <!-- Aggiungi altri elementi qui -->
+</div>

@@ -1,0 +1,87 @@
+.lavagna {
+  position: relative;
+  width: 977px;
+  height: 500px;
+  margin: auto;
+  border: 1px solid #ccc;
+  background-image: url("../../../../assets/img/FutsalPitchGreen.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.elemento {
+  position: absolute;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.t1 {
+  background-color: #3498db;
+}
+
+.t2 {
+  background-color: #ec1f1f;
+}
+
+.ball {
+  background-image: url("../../../../assets/img/Ball1.png");
+  background-size: contain;
+}
+
+.buttonsBoard {
+  display: flex;
+  justify-content: center;
+  margin: 0.5em;
+}
+
+.button {
+  background-color: rgb(10, 255, 2);
+  padding: 0.5em;
+  border-radius: 15px;
+  margin: 0 0.2em;
+  cursor: pointer;
+}
+
+.input {
+  position: absolute;
+  z-index: 10;
+  font-size: 2em;
+  display: flex;
+  left: 10%;
+}
+
+input {
+  font-size: 1.5em;
+}
+
+.tattList {
+  position: absolute;
+  z-index: 10;
+  font-size: 2em;
+  left: 10%;
+  background: rgb(20, 20, 20);
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 0.5em;
+}
+
+.tattList a {
+  background-color: rgb(94, 94, 94);
+  padding: 0.5em;
+  border-radius: 15px;
+  margin: 0 0.2em;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  bottom: 37px;
+  padding: 0.3em;
+  font-size: 0.8em;
+}/*# sourceMappingURL=soccer-board.component.css.map */
