@@ -72,6 +72,29 @@ export class RegisterComponent {
       this.form.disable();
       this.thisUser = this.form.value;
       this.thisUser.allTattics = [];
+
+      //PROVA Per creare utente con tattica, ok funziona
+      // this.thisUser.allTattics = [
+      //   {
+      //     name: 'prova',
+      //     positions: [
+      //       [
+      //         { id: 1, x: 37, y: 219 },
+      //         { id: 2, x: 179, y: 225 },
+      //         { id: 3, x: 231, y: 70 },
+      //         { id: 4, x: 240, y: 373 },
+      //         { id: 5, x: 388, y: 225 },
+      //         { id: 6, x: 906, y: 231 },
+      //         { id: 7, x: 776, y: 225 },
+      //         { id: 8, x: 790, y: 396 },
+      //         { id: 9, x: 781, y: 60 },
+      //         { id: 10, x: 629, y: 225 },
+      //         { id: 11, x: 84, y: 196 },
+      //       ],
+      //     ],
+      //   },
+      // ];
+
       this.authSrv.signUp(this.thisUser).subscribe((res) => {
         // console.log('registrato');
         this.createdMessage = false;

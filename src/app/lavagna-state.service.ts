@@ -73,7 +73,9 @@ export class LavagnaStateService {
     this.isRecording = false;
 
     //salva nello user:
-    this.authSrv.updateTattics(this.newTattic);
+    this.authSrv.updateTattics(this.newTattic).subscribe((res) => {
+      console.log('ok salvato: ', res);
+    });
 
     //resetta newTattic per poterne farne una nuova
     this.newTattic = {
