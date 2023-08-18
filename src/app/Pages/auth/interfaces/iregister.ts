@@ -1,5 +1,3 @@
-import { ICitySingleResponse } from './icity-single-response';
-
 export interface IRegister {
   passwordConf: string;
   password: string;
@@ -7,5 +5,4 @@ export interface IRegister {
   email?: string;
   uName?: string;
   surname?: string;
-  prefers?: ICitySingleResponse[];
 }

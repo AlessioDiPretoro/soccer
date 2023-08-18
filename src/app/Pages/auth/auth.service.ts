@@ -8,7 +8,6 @@ import { IRegister } from './interfaces/iregister';
 import { ILogin } from './interfaces/ilogin';
 import { IResponse } from './interfaces/iresponse';
 import { IUser } from './interfaces/iuser';
-import { ICitySingleResponse } from './interfaces/icity-single-response';
 
 @Injectable({
   providedIn: 'root',
@@ -79,20 +78,6 @@ export class AuthService {
     return this.http.put(this.usersUrl + '/' + data.id, data);
   }
 
-  // NON funge... complicato passare anche la password per effettuare il salvataggio
-  updateUserPref(city: ICitySingleResponse) {
-    console.log('this.authSubject', city);
-    console.log('this.authSubjectBefore', this.authSubject.value);
-
-    this.authSubject.value?.user.prefers?.push(city);
-    console.log('this.authSubject', this.authSubject);
-
-    // this.authSubject.next(this.authSubject.value?.user.prefers.push(city))
-    return this.http.put(
-      this.usersUrl + '/' + this.authSubject.value?.user.id,
-      this.authSubject.value
-    );
-  }
   readAllUsers() {
     return this.http.get<IUser[]>(this.usersUrl);
   }
