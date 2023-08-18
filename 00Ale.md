@@ -1,1 +1,2 @@
-fare fetch per salvare la nuova tattica
+ok carica le tattiche
+al click sulla tattica preparare animazione

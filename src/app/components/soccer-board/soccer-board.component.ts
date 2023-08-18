@@ -10,6 +10,8 @@ import {
   ViewChild,
 } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { AuthService } from 'src/app/Pages/auth/auth.service';
+import { IUser } from 'src/app/Pages/auth/interfaces/iuser';
 import { LavagnaStateService } from 'src/app/lavagna-state.service';
 
 @Component({
@@ -30,7 +32,8 @@ export class SoccerBoardComponent implements AfterViewInit {
 
   constructor(
     private lavagnaState: LavagnaStateService,
-    private renderer: Renderer2
+    private renderer: Renderer2,
+    private authSrv: AuthService
   ) {}
 
   private startPositionAll: ElementPosition[] = [
@@ -104,7 +107,10 @@ export class SoccerBoardComponent implements AfterViewInit {
   }
   loadAllTattics() {
     this.isLoad = true;
-    this.allTattics = this.lavagnaState.allTattics;
+    this.authSrv.user$.subscribe((res) => {
+      console.log('res User', res?.user.allTattics);
+      this.allTattics = res!.user.allTattics;
+    });
     console.log('LOAD', this.allTattics);
   }
 
