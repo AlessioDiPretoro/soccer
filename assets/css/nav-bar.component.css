@@ -1,3 +1,19 @@
+.user {
+  position: absolute;
+  z-index: 200;
+  right: 0;
+  top: 0;
+}
+.user div {
+  text-align: end;
+}
+.user i {
+  font-size: 1.8em;
+}
+.user ul {
+  flex-direction: column;
+}
+
 ul {
   list-style: none;
   display: flex;

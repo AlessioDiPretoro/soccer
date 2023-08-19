@@ -1,3 +1,21 @@
+.user {
+  position: absolute;
+  z-index: 200;
+  right: 0;
+  top: 0;
+  div {
+    text-align: end;
+  }
+
+  i {
+    font-size: 1.8em;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+}
+
 ul {
   list-style: none;
   display: flex;

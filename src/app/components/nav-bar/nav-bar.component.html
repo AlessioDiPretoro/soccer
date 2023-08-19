@@ -1,9 +1,17 @@
-<div>
+<div class="nav">
   <ul>
     <li><a routerLink="home">Home</a></li>
     <li><a routerLink="soccerField">Soccer Field</a></li>
-    <li><a routerLink="login">Login</a></li>
-    <li><a routerLink="signup">Register</a></li>
-    <li><a routerLink="edit">Edit Profile</a></li>
+    <li *ngIf="!isLogged"><a routerLink="login">Login</a></li>
+    <li *ngIf="!isLogged"><a routerLink="signup">Register</a></li>
   </ul>
+  <div class="user" *ngIf="isLogged">
+    <div (click)="isUserShow = !isUserShow">
+      <i class="btn fa-solid fa-user" style="color: #ffffff"></i>
+    </div>
+    <ul *ngIf="isUserShow">
+      <li><a routerLink="edit">Edit Profile</a></li>
+      <li (click)="logout()"><a>Log-Out</a></li>
+    </ul>
+  </div>
 </div>
