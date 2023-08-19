@@ -11,23 +11,30 @@
   <app-alert></app-alert
 ></ngb-alert> -->
 
+<!-- //forse non serve -->
+<!-- <div class="message" *ngIf="staticAlertClosed">
+  <h2>Utente Loggato con successo</h2>
+  <p>Stai per essere redirezionato alla tua home page.</p>
+</div> -->
+
+<div class="message" *ngIf="staticAlertClosed">
+  <h2>Utente Loggato con successo</h2>
+  <p>Stai per essere redirezionato alla tua home page.</p>
+</div>
+
 <form (ngSubmit)="submit(f)" #f="ngForm" class="mt-3 mb-1">
-  <label for="email">Inserisci la tua mail</label>
-  <input
-    class="form-control"
-    type="text"
-    placeholder="Email Name"
-    ngModel
-    name="email"
-  />
-  <label for="password">Inserisci la tua password</label>
-  <input
-    class="form-control"
-    type="password"
-    placeholder="password"
-    ngModel
-    name="password"
-  />
-  <button class="btn btn-success mt-2">Effettua Login</button>
+  <div>
+    <div>
+      <h3 for="email">Inserisci la tua mail</h3>
+      <input type="text" placeholder="Email Name" ngModel name="email" />
+    </div>
+    <div>
+      <h3 for="password">Inserisci la tua password</h3>
+      <input type="password" placeholder="password" ngModel name="password" />
+    </div>
+    <div>
+      <button class="btn btn-primary">Effettua Login</button>
+    </div>
+  </div>
 </form>
 <!-- <a class="btn btn-danger" (click)="logOut()">Effettua Log-Out</a> -->

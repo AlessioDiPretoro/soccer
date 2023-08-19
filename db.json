@@ -812,6 +812,78 @@
           ]
         }
       ]
+    },
+    {
+      "email": "hopikivy@mailinator.com",
+      "password": "$2a$10$tAHt99t/q9EtHkyccQ314e6WnOCGPzg8AQyLS//HEr.Qu.0ZcFqh2",
+      "uName": "Aut eum corrupti qu",
+      "surname": "Aut totam eum dolore",
+      "passwordConf": "password",
+      "id": 6,
+      "allTattics": []
+    },
+    {
+      "email": "fisyse@mailinator.com",
+      "password": "$2a$10$mI5lQe8y8e/9ESMrMH74FO2HNwXD1/u46eI/KQ.EFxZ0KO91UbI4q",
+      "uName": "Voluptatibus adipisi",
+      "surname": "Duis error omnis qui",
+      "passwordConf": "password",
+      "id": 7,
+      "allTattics": []
+    },
+    {
+      "email": "loqeka@mailinator.com",
+      "password": "$2a$10$LCklMr/EQL8p3HFYNfD4XOLscFvd4LPqZfkHZm1rACi2b36U8uPa6",
+      "uName": "Aliquid dignissimos ",
+      "surname": "Quo vel nulla adipis",
+      "passwordConf": "password",
+      "id": 8,
+      "allTattics": []
+    },
+    {
+      "email": "kawubifa@mailinator.com",
+      "password": "$2a$10$/cyCVixdC6J69GHZN6cjhuV7rohib8W.PiFkuxYvre7IWYBTsn2Yi",
+      "uName": "Deleniti ut aperiam ",
+      "surname": "Est omnis ratione la",
+      "passwordConf": "password",
+      "id": 9,
+      "allTattics": []
+    },
+    {
+      "email": "coqurofivu@mailinator.com",
+      "password": "$2a$10$cz8RhjvtVd2zrk51lOCfNOPErlLWVAv4CR2FKypMJZKSarlYpjqGm",
+      "uName": "Aut maiores nostrum ",
+      "surname": "Minim perferendis es",
+      "passwordConf": "password",
+      "id": 10,
+      "allTattics": []
+    },
+    {
+      "email": "kafa@mailinator.com",
+      "password": "$2a$10$axt0EefhF.EV1yk7lvwGmuK3HHZorzGdF.vkCVe7kz9WNk.iAEIL.",
+      "uName": "Do veritatis sed cup",
+      "surname": "Quis culpa voluptas ",
+      "passwordConf": "password",
+      "id": 11,
+      "allTattics": []
+    },
+    {
+      "email": "sodykof@mailinator.com",
+      "password": "$2a$10$xef9KkiAJwMNv1OVRo7ZsOBAnWdcEVaiMjUITgN.bTWIXP0iTkC9C",
+      "uName": "Voluptatem est facer",
+      "surname": "Ratione labore dicta",
+      "passwordConf": "password",
+      "id": 12,
+      "allTattics": []
+    },
+    {
+      "email": "gybor@mailinator.com",
+      "password": "$2a$10$z19dLdulqviHMBcvSYZXXeLDL.7IavMIB9KorkhWw4hAhIokVVmKS",
+      "uName": "Aut lorem qui irure ",
+      "surname": "Nemo voluptatem sin",
+      "passwordConf": "password",
+      "id": 13,
+      "allTattics": []
     }
   ]
 }

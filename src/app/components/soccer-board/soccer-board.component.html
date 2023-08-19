@@ -1,9 +1,9 @@
 <div class="buttonsBoard">
-  <a class="button" *ngIf="!isSave" (click)="newRec()">New</a>
-  <a class="button" *ngIf="isSave" (click)="save()">Save</a>
-  <a class="button" *ngIf="isSave" (click)="delet()">Delete</a>
-  <a class="button" *ngIf="!isSave" (click)="loadAllTattics()">Load</a>
-  <a class="button" *ngIf="!isSave" (click)="clear()">Clear</a>
+  <a class="btn btn-grey" *ngIf="!isSave" (click)="newRec()">New</a>
+  <a class="btn btn-grey" *ngIf="isSave" (click)="save()">Save</a>
+  <a class="btn btn-grey" *ngIf="isSave" (click)="delet()">Delete</a>
+  <a class="btn btn-grey" *ngIf="!isSave" (click)="loadAllTattics()">Load</a>
+  <a class="btn btn-grey" *ngIf="!isSave" (click)="clear()">Clear</a>
 </div>
 <div *ngIf="isNewInput" class="input">
   <form (ngSubmit)="startRec(f)" #f="ngForm">

@@ -132,3 +132,80 @@ body {
 a:visited {
   color: black;
 }
+
+//END RESET
+
+//start message
+.message {
+  background-color: #09db09bd;
+  padding: 1em;
+  border-radius: 15px;
+  width: 80%;
+  margin: 0.5em 7.5%;
+  position: absolute;
+  z-index: 200;
+}
+
+.message h2 {
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+//GENERALS
+h5 {
+  text-align: center;
+  margin: 0.5em;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+//start forms
+form {
+  padding-left: 1em;
+  div div {
+    padding: 0.4em 0;
+  }
+  h3 {
+    margin-bottom: 0.2em;
+  }
+  label {
+    display: block;
+    margin: 0;
+  }
+  input {
+    width: 80%;
+    padding: 0.5em;
+    border-color: #d9d9d9;
+    border-style: solid;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+}
+
+//buttons
+.btn {
+  padding: 0.3em;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 0.2em;
+}
+
+.button {
+  background-color: rgb(10, 255, 2);
+  padding: 0.5em;
+  border-radius: 15px;
+}
+.btn-primary {
+  border-color: #b1ff64;
+  background: #02a302;
+  color: white;
+}
+.btn-grey {
+  border-color: #6e6e6e;
+  background: #5e5e5e;
+  color: white;
+}
