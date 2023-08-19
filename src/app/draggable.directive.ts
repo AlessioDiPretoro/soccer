@@ -19,8 +19,6 @@ export class DraggableDirective {
     private lavagnaState: LavagnaStateService
   ) {}
 
-  //nuovo con touch
-
   @HostListener('mousedown', ['$event'])
   @HostListener('touchstart', ['$event'])
   onStart(event: MouseEvent | TouchEvent) {
@@ -47,14 +45,10 @@ export class DraggableDirective {
     if (event instanceof MouseEvent) {
       x = event.clientX - this.initialX;
       y = event.clientY - this.initialY;
-      console.log('MOUSE');
     } else if (event instanceof TouchEvent) {
-      console.log('event', event);
-
       const touch = event.touches[0];
       x = touch.clientX - this.initialX;
       y = touch.clientY - this.initialY;
-      console.log('Touch');
     }
     this.initialXperc = (100 * this.initialX) / this.maxW;
     this.initialYperc = (100 * this.initialY) / this.maxH;
@@ -75,50 +69,4 @@ export class DraggableDirective {
       this.el.nativeElement.style.top
     );
   }
-
-  //fine nuovo
-
-  // @HostListener('mousedown', ['$event'])
-  // onMouseDown(event: MouseEvent) {
-  //   this.isDragging = true;
-  //   this.initialX = event.clientX - this.el.nativeElement.offsetLeft;
-  //   this.initialY = event.clientY - this.el.nativeElement.offsetTop;
-  //   // console.log('Start pos x', this.initialX, ' y:', +this.initialY);
-  // }
-
-  // @HostListener('document:mousemove', ['$event'])
-  // onMouseMove(event: MouseEvent) {
-  //   if (!this.isDragging) return;
-
-  //   const x = event.clientX - this.initialX;
-  //   const y = event.clientY - this.initialY;
-  //   this.initialXperc = (100 * this.initialX) / this.maxW;
-  //   this.initialYperc = (100 * this.initialY) / this.maxH;
-  //   const xEndPerc = (100 * x) / this.maxW;
-  //   const yEndPerc = (100 * y) / (this.maxW / 1.9554);
-  //   //muove con % OK FUNZIONA
-  //   this.renderer.setStyle(this.el.nativeElement, 'left', `${xEndPerc}%`);
-  //   this.renderer.setStyle(this.el.nativeElement, 'top', `${yEndPerc}%`);
-  //   console.log('x: ', xEndPerc, ' y: ', yEndPerc);
-
-  //   //muove con px
-  //   // this.renderer.setStyle(this.el.nativeElement, 'left', `${x}px`);
-  //   // this.renderer.setStyle(this.el.nativeElement, 'top', `${y}px`);
-  //   // console.log('new pos x', this.initialX, ' y:', +this.initialY);
-  // }
-
-  // @HostListener('mouseup')
-  // onMouseUp() {
-  //   this.isDragging = false;
-  //   const id = +this.el.nativeElement.getAttribute('data-id');
-  //   this.lavagnaState.updateElementPosition(
-  //     id,
-  //     //invia le %
-  //     this.el.nativeElement.style.left,
-  //     this.el.nativeElement.style.top
-  //     //invia i px
-  //     // parseInt(this.el.nativeElement.style.left, 10),
-  //     // parseInt(this.el.nativeElement.style.top, 10)
-  //   );
-  // }
 }

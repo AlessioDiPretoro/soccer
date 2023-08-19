@@ -11,10 +11,13 @@ export class NavBarComponent {
 
   isLogged!: boolean;
   isUserShow: boolean = false;
-
+  uName!: string;
   ngOnInit() {
     this.authSrv.isLoggedIn$.subscribe((res) => {
       this.isLogged = res;
+    });
+    this.authSrv.user$.subscribe((res) => {
+      this.uName = res!.user.uName!;
     });
   }
   logout() {

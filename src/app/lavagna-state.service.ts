@@ -68,6 +68,11 @@ export class LavagnaStateService {
   }
 
   saveRec() {
+    console.log(this.newTattic.positions.length);
+
+    //verifica che non ci siano un errore nel salvataggio nelle posizioni
+    if (this.newTattic.positions.length == 0) return console.log('ERROR');
+
     this.allTattics.push({ ...this.newTattic });
     console.log('allTattics', this.allTattics);
     this.isRecording = false;

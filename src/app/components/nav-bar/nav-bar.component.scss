@@ -3,8 +3,11 @@
   z-index: 200;
   right: 0;
   top: 0;
+
   div {
     text-align: end;
+    display: flex;
+    align-items: center;
   }
 
   i {

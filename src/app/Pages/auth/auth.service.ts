@@ -83,15 +83,17 @@ export class AuthService {
   }
 
   updateTattics(newT: AllMoves) {
-    console.log('URL: ', this.usersUrl + '/' + this.authSubject.value!.user.id);
-    console.log('this.user$', this.user$);
-    console.log('this.auth', this.authSubject);
+    // console.log('URL: ', this.usersUrl + '/' + this.authSubject.value!.user.id);
+    // console.log('this.user$', this.user$);
+    // console.log('this.auth', this.authSubject);
+
     this.authSubject.value!.user.allTattics.push(newT);
-    console.log(
-      'final: ',
-      this.authSubject.value!.user.id,
-      this.authSubject.value!.user
-    );
+    this.authSubject.next(this.authSubject.value);
+    // console.log(
+    //   'final: ',
+    //   this.authSubject.value!.user.id,
+    //   this.authSubject.value!.user
+    // );
 
     return this.http.patch(
       this.usersUrl + '/' + this.authSubject.value!.user.id,

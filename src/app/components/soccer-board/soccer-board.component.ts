@@ -28,7 +28,10 @@ export class SoccerBoardComponent implements AfterViewInit {
   isNewInput: boolean = false;
   isSave: boolean = false;
   isLoad: boolean = false;
+  isLoaded: boolean = false;
   allTattics: AllMoves[] = [];
+  tatticToPlay!: AllMoves;
+  tatticToPlayIndex: number = 0;
   maxH: number = window.innerHeight;
 
   constructor(
@@ -82,11 +85,13 @@ export class SoccerBoardComponent implements AfterViewInit {
   //bottoni:
   clear() {
     this.updatePlayersPosition(this.startPositionAll);
+    this.isLoaded = false;
+    this.tatticToPlayIndex = 0;
   }
 
-  newRec() {
-    this.isNewInput = true;
-  }
+  // newRec() {
+  //   this.isNewInput = true;
+  // }
 
   startRec(form: NgForm) {
     this.isNewInput = false;
@@ -101,26 +106,55 @@ export class SoccerBoardComponent implements AfterViewInit {
     this.clear();
   }
 
-  delet() {
-    this.lavagnaState.newTattic.positions = [];
-    console.log('deleted:', this.lavagnaState.newTattic.positions);
-    this.clear();
-  }
+  // delet() {
+  //   this.lavagnaState.newTattic.positions = [];
+  //   console.log('deleted:', this.lavagnaState.newTattic.positions);
+  //   this.clear();
+  // }
   loadAllTattics() {
-    this.isLoad = true;
+    this.isLoad = !this.isLoad;
     this.authSrv.user$.subscribe((res) => {
-      console.log('res User', res?.user.allTattics);
+      // console.log('res User', res?.user.allTattics);
       this.allTattics = res!.user.allTattics;
     });
-    console.log('LOAD', this.allTattics);
+    // console.log('LOAD', this.allTattics);
   }
-
   loadThisTattic(tattic: AllMoves) {
     this.isLoad = false;
-    tattic.positions.forEach((move) => {
+    this.isLoaded = true;
+    this.tatticToPlay = tattic;
+    this.updatePlayersPosition(
+      this.tatticToPlay.positions[this.tatticToPlayIndex]
+    );
+    this.tatticToPlayIndex = 1;
+    // console.log('this.tatt', tattic);
+  }
+
+  playTattic() {
+    this.tatticToPlayIndex = 0;
+    let time = 700;
+    this.tatticToPlay.positions.forEach((move, i) => {
+      console.log('TimeOut', time);
       setTimeout(() => {
         this.updatePlayersPosition(move);
-      }, 500);
+        this.tatticToPlayIndex += 1;
+      }, time * i);
     });
+  }
+  nextMove() {
+    if (this.tatticToPlayIndex < this.tatticToPlay.positions.length) {
+      this.updatePlayersPosition(
+        this.tatticToPlay.positions[this.tatticToPlayIndex]
+      );
+      this.tatticToPlayIndex += 1;
+    } else return;
+  }
+  prevMove() {
+    if (this.tatticToPlayIndex > 1) {
+      this.tatticToPlayIndex -= 1;
+      this.updatePlayersPosition(
+        this.tatticToPlay.positions[this.tatticToPlayIndex - 1]
+      );
+    } else return;
   }
 }

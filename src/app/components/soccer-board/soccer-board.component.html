@@ -1,21 +1,46 @@
 <div class="buttonsBoard">
-  <a class="btn btn-grey" *ngIf="!isSave" (click)="newRec()">New</a>
+  <a
+    class="btn btn-grey"
+    *ngIf="!isSave"
+    (click)="this.isNewInput = !this.isNewInput"
+    >New</a
+  >
   <a class="btn btn-grey" *ngIf="isSave" (click)="save()">Save</a>
-  <a class="btn btn-grey" *ngIf="isSave" (click)="delet()">Delete</a>
+  <!-- <a class="btn btn-grey" *ngIf="!isSave" (click)="delet()">delet</a> -->
+  <a class="btn btn-grey" *ngIf="!isSave" (click)="clear()">Reset pos</a>
   <a class="btn btn-grey" *ngIf="!isSave" (click)="loadAllTattics()">Load</a>
-  <a class="btn btn-grey" *ngIf="!isSave" (click)="clear()">Clear</a>
+  <!-- pulstanti PLAYER -->
+  <div class="playerTattic" *ngIf="isLoaded && !isSave">
+    <a class="btn btn-grey" (click)="prevMove()"
+      ><i class="fa-solid fa-left-long"></i
+    ></a>
+    <a class="btn btn-grey" (click)="playTattic()"
+      ><i class="fa-solid fa-play"></i
+    ></a>
+    <a class="btn btn-grey" (click)="nextMove()"
+      ><i class="fa-solid fa-right-long"></i
+    ></a>
+    <a>
+      {{ this.tatticToPlayIndex }} / {{ this.tatticToPlay.positions.length }}</a
+    >
+  </div>
+  <!--FINE pulstanti PLAYER -->
 </div>
 <div *ngIf="isNewInput" class="input">
   <form (ngSubmit)="startRec(f)" #f="ngForm">
     <input type="text" ngModel placeholder="Nome Tattica" name="nome" />
-    <button class="button">V</button>
+    <button class="btn btn-green">
+      <i class="fa-solid fa-check"></i>
+    </button>
   </form>
 </div>
 <div *ngIf="isLoad" class="tattList">
   <a *ngFor="let tattic of allTattics" (click)="loadThisTattic(tattic)">{{
     tattic.name
   }}</a>
-  <a class="close" (click)="isLoad = false">X</a>
+  <a class="close" (click)="isLoad = false"
+    ><i class="fa-solid fa-xmark"></i
+  ></a>
 </div>
 <div class="lavagna">
   <img

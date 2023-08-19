@@ -49,33 +49,37 @@ img {
 .buttonsBoard {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0.5em;
-}
-
-.button {
-  background-color: rgb(10, 255, 2);
-  padding: 0.5em;
-  border-radius: 15px;
-  margin: 0 0.2em;
-  cursor: pointer;
 }
 
 .input {
   position: absolute;
   z-index: 10;
-  font-size: 2em;
+  // font-size: 2em;
+  // display: flex;
+  left: 30%;
+}
+
+form {
   display: flex;
-  left: 10%;
+  align-items: center;
+}
+
+.playerTattic {
+  margin-left: 2em;
 }
 
 input {
+  width: 80%;
   font-size: 1.5em;
 }
 
 .tattList {
   position: absolute;
+  border: 1px solid white;
   z-index: 10;
-  font-size: 2em;
+  font-size: 1.5em;
   left: 10%;
   background: rgb(20, 20, 20);
   padding: 1em;
@@ -96,7 +100,7 @@ input {
 .close {
   position: absolute;
   right: 0;
-  bottom: 37px;
+  top: 0;
   padding: 0.3em;
   font-size: 0.8em;
 }

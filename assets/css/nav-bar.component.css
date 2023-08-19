@@ -6,6 +6,8 @@
 }
 .user div {
   text-align: end;
+  display: flex;
+  align-items: center;
 }
 .user i {
   font-size: 1.8em;

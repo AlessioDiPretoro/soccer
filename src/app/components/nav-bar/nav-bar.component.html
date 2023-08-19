@@ -7,7 +7,8 @@
   </ul>
   <div class="user" *ngIf="isLogged">
     <div (click)="isUserShow = !isUserShow">
-      <i class="btn fa-solid fa-user" style="color: #ffffff"></i>
+      <p>{{ this.uName }}</p>
+      <i class="btn fa-solid fa-user"></i>
     </div>
     <ul *ngIf="isUserShow">
       <li><a routerLink="edit">Edit Profile</a></li>
