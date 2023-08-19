@@ -68,7 +68,8 @@ export class SoccerBoardComponent implements AfterViewInit {
     const elementPositions = this.lavagnaState.getElementPositions();
     this.updatePlayersPosition(elementPositions);
   }
-
+  newX!: string;
+  newY!: string;
   //aggiorna la posizione di ogni giocatore a seconda della mossa attuale
   private updatePlayersPosition(elementPositions: ElementPosition[]): void {
     elementPositions.forEach((pos) => {
@@ -76,6 +77,9 @@ export class SoccerBoardComponent implements AfterViewInit {
         (el) => el.nativeElement.getAttribute('data-id') === `${pos.id}`
       );
       if (element) {
+        // this.newX = pos.x; //deve essere in pixel
+        // console.log('this.newX', this.newX);
+        // this.newY = pos.y;
         this.renderer.setStyle(element.nativeElement, 'left', `${pos.x}`);
         this.renderer.setStyle(element.nativeElement, 'top', `${pos.y}`);
       }

@@ -35,6 +35,7 @@ img {
   right: -85%;
   top: 85%;
 }
+
 // .t1 {
 //   background-color: #3498db;
 // }
@@ -103,4 +104,21 @@ input {
   top: 0;
   padding: 0.3em;
   font-size: 0.8em;
+}
+
+.animated {
+  animation: moveSlowly 1s forwards; /* Imposta la durata dell'animazione desiderata */
+}
+
+@keyframes moveSlowly {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    // transform: translate(100px, 0);
+    transform: translate(var(--new-x), var(--new-y));
+  }
 }
