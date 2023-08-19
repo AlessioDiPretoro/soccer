@@ -2,19 +2,23 @@ ul {
   list-style: none;
   display: flex;
   margin: 0;
-  background: grey;
+  background: #5e5e5e;
 }
 
 li {
-  padding: 1em;
+  padding: 0.7em;
+  margin: 0.5em;
+  background-color: rgb(80, 80, 80);
+  border-radius: 10px;
+  border: 1px solid #adadad;
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 li:hover {
-  background-color: rgb(94, 94, 94);
+  background-color: rgb(65, 65, 65);
   border-radius: 10px;
 }

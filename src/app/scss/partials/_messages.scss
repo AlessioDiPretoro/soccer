@@ -1,0 +1,16 @@
+//start message
+.message {
+  background-color: #09db09bd;
+  padding: 1em;
+  border-radius: 15px;
+  width: 80%;
+  margin: 0.5em 7.5%;
+  position: absolute;
+  z-index: 200;
+}
+
+.message h2 {
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}

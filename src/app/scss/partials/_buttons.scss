@@ -1,0 +1,19 @@
+//buttons
+.btn {
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 0.2em;
+  font-size: 1em;
+}
+
+.btn-green {
+  border-color: #b1ff64;
+  background: #02a302;
+  color: white;
+}
+.btn-grey {
+  border: 1px solid #adadad;
+  background: #5e5e5e;
+  color: white;
+}

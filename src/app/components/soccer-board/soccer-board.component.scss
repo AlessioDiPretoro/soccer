@@ -1,14 +1,17 @@
 .lavagna {
   position: relative;
-  // width: 500px;
-  width: 977px;
-  height: 500px;
+  // width: 977px;
+  // height: 500px;
   margin: auto;
   border: 1px solid #ccc;
-  background-image: url("../../../../assets/img/FutsalPitchGreen.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background-image: url("../../../../assets/img/FutsalPitchGreen.png");
+  // background-size: cover;
+  // background-repeat: no-repeat;
   overflow: hidden;
+}
+
+img {
+  width: 100%;
 }
 
 .elemento {
@@ -25,7 +28,7 @@
   background-color: #ec1f1f;
 }
 .ball {
-  background-image: url("../../../../assets/img/Ball1.png");
+  background-image: url("../../../assets/img/Ball1.png");
   background-size: contain;
 }
 

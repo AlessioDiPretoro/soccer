@@ -1,4 +1,4 @@
-<h5>Modulo di registrazione</h5>
+<h1>Registra il tuo nuovo utente</h1>
 <div class="spinner-border text-secondary loader" *ngIf="isLoading"></div>
 <div class="message" *ngIf="!staticAlertClosed">
   <h2>Utente modificato con successo</h2>
@@ -73,20 +73,12 @@
       <input type="text" formControlName="id" placeholder="id" />
     </div>
     <div *ngIf="!isId">
-      <button
-        [disabled]="isLoading"
-        class="btn btn-primary"
-        (click)="sendUser()"
-      >
+      <button [disabled]="isLoading" class="btn btn-grey" (click)="sendUser()">
         Conferma User
       </button>
     </div>
     <div *ngIf="isId">
-      <button
-        [disabled]="isLoading"
-        class="btn btn-primary"
-        (click)="editUser()"
-      >
+      <button [disabled]="isLoading" class="btn btn-grey" (click)="editUser()">
         Modifica User
       </button>
     </div>
