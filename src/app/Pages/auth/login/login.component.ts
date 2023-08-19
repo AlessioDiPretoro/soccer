@@ -42,10 +42,10 @@ export class LoginComponent {
       this.displayMessage(this.alertsList[0]);
       // this.staticAlertClosed = true; //Apre il messaggio
 
-      //   setTimeout(() => {
-      //     this.router.navigate(['/home']);
-      //   }, 3000),
-      //     console.log('loggato');
+      setTimeout(() => {
+        this.router.navigate(['/home']);
+      }, 3000),
+        console.log('loggato');
     });
   }
 
