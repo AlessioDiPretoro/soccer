@@ -9,17 +9,17 @@ import { AuthService } from './Pages/auth/auth.service';
 export class LavagnaStateService {
   constructor(private authSrv: AuthService) {}
   private elementPositions: ElementPosition[] = [
-    { id: 1, x: 37, y: 219 },
-    { id: 2, x: 179, y: 225 },
-    { id: 3, x: 231, y: 70 },
-    { id: 4, x: 240, y: 373 },
-    { id: 5, x: 388, y: 225 },
-    { id: 6, x: 906, y: 231 },
-    { id: 7, x: 776, y: 225 },
-    { id: 8, x: 790, y: 396 },
-    { id: 9, x: 781, y: 60 },
-    { id: 10, x: 629, y: 225 },
-    { id: 11, x: 84, y: 196 },
+    { id: 1, x: '3%', y: '45%' },
+    { id: 2, x: '16%', y: '45%' },
+    { id: 3, x: '20%', y: '15%' },
+    { id: 4, x: '20%', y: '75%' },
+    { id: 5, x: '43%', y: '45%' },
+    { id: 6, x: '95%', y: '45%' },
+    { id: 7, x: '80%', y: '45%' },
+    { id: 8, x: '75%', y: '75%' },
+    { id: 9, x: '75%', y: '15%' },
+    { id: 10, x: '60%', y: '45%' },
+    { id: 11, x: '8.4%', y: '40%' },
   ];
 
   allTattics: AllMoves[] = []; //da leggere nell'utente
@@ -33,7 +33,7 @@ export class LavagnaStateService {
     return this.elementPositions;
   }
 
-  updateElementPosition(id: number, x: number, y: number): void {
+  updateElementPosition(id: number, x: string, y: string): void {
     const index = this.elementPositions.findIndex((el) => el.id === id);
 
     if (!this.isRecording) {

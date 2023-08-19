@@ -1,3 +1,4 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
 .lavagna {
   position: relative;
   margin: auto;
@@ -12,22 +13,24 @@ img {
 .elemento {
   position: absolute;
   color: #fff;
-  padding: 10px 15px;
   cursor: pointer;
+  padding: 10px 15px;
   border-radius: 50%;
 }
 
-.t1 {
-  background-color: #3498db;
+.elemento p,
+.elemento i {
+  position: absolute;
+  font-size: 2.5em;
 }
 
-.t2 {
-  background-color: #ec1f1f;
+.elemento i {
+  font-size: 3em;
 }
 
-.ball {
-  background-image: url("../../../assets/img/Ball1.png");
-  background-size: contain;
+.elemento p {
+  right: -85%;
+  top: 85%;
 }
 
 .buttonsBoard {

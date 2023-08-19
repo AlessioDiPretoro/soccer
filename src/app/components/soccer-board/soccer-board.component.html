@@ -18,17 +18,53 @@
   <a class="close" (click)="isLoad = false">X</a>
 </div>
 <div class="lavagna">
-  <img src="../../../assets/img/FutsalPitchGreen.png" alt="NonTrovata" />
-  <div class="elemento t1" #elemento data-id="1" appDraggable>1</div>
-  <div class="elemento t1" #elemento data-id="2" appDraggable>2</div>
-  <div class="elemento t1" #elemento data-id="3" appDraggable>3</div>
-  <div class="elemento t1" #elemento data-id="4" appDraggable>4</div>
-  <div class="elemento t1" #elemento data-id="5" appDraggable>5</div>
-  <div class="elemento ball" #elemento data-id="11" appDraggable>0</div>
-  <div class="elemento t2" #elemento data-id="6" appDraggable>1</div>
-  <div class="elemento t2" #elemento data-id="7" appDraggable>2</div>
-  <div class="elemento t2" #elemento data-id="8" appDraggable>3</div>
-  <div class="elemento t2" #elemento data-id="9" appDraggable>4</div>
-  <div class="elemento t2" #elemento data-id="10" appDraggable>5</div>
+  <img
+    src="../../../assets/img/FutsalPitchGreen.png"
+    [style.max-height]="maxH + 'px'"
+    alt="NonTrovata"
+  />
+  <div class="elemento" #elemento data-id="1" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #3498db"></i>
+    <p>1</p>
+  </div>
+  <div class="elemento" #elemento data-id="3" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #3498db"></i>
+    <p>3</p>
+  </div>
+  <div class="elemento" #elemento data-id="2" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #3498db"></i>
+    <p>2</p>
+  </div>
+  <div class="elemento" #elemento data-id="4" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #3498db"></i>
+    <p>4</p>
+  </div>
+  <div class="elemento" #elemento data-id="5" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #3498db"></i>
+    <p>5</p>
+  </div>
+  <div class="elemento ball" #elemento data-id="11" appDraggable>
+    <i class="fa-solid fa-futbol" style="color: #faf200"></i>
+  </div>
+  <div class="elemento" #elemento data-id="6" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #e00016"></i>
+    <p>1</p>
+  </div>
+  <div class="elemento" #elemento data-id="7" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #e00016"></i>
+    <p>2</p>
+  </div>
+  <div class="elemento" #elemento data-id="8" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #e00016"></i>
+    <p>3</p>
+  </div>
+  <div class="elemento" #elemento data-id="9" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #e00016"></i>
+    <p>4</p>
+  </div>
+  <div class="elemento" #elemento data-id="10" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #e00016"></i>
+    <p>5</p>
+  </div>
   <!-- Aggiungi altri elementi qui -->
 </div>
