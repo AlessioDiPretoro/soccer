@@ -47,10 +47,12 @@ export class DraggableDirective {
     if (event instanceof MouseEvent) {
       x = event.clientX - this.initialX;
       y = event.clientY - this.initialY;
+      console.log('MOUSE');
     } else if (event instanceof TouchEvent) {
       const touch = event.touches[0];
       x = touch.clientX - this.initialX;
       y = touch.clientY - this.initialY;
+      console.log('Touch');
     }
     this.initialXperc = (100 * this.initialX) / this.maxW;
     this.initialYperc = (100 * this.initialY) / this.maxH;
