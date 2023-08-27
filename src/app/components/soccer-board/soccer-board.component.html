@@ -55,6 +55,7 @@
     [style.max-height]="maxH + 'px'"
     alt="NonTrovata"
   />
+  <!--
   <div class="elemento" #elemento data-id="1" appDraggable>
     <i class="fa-solid fa-shirt" style="color: #3498db"></i>
     <p>1</p>
@@ -75,7 +76,7 @@
     <i class="fa-solid fa-shirt" style="color: #3498db"></i>
     <p>5</p>
   </div>
-  <div class="elemento ball" #elemento data-id="11" appDraggable>
+  <div class="elemento" #elemento data-id="11" appDraggable>
     <i class="fa-solid fa-futbol" style="color: #faf200"></i>
   </div>
   <div class="elemento" #elemento data-id="6" appDraggable>
@@ -97,6 +98,20 @@
   <div class="elemento" #elemento data-id="10" appDraggable>
     <i class="fa-solid fa-shirt" style="color: #e00016"></i>
     <p>5</p>
+  </div> -->
+  <div class="elemento" #elemento data-id="9" appDraggable>
+    <i class="fa-solid fa-shirt" style="color: #e00016"></i>
+    <p>4</p>
   </div>
+
   <!-- Aggiungi altri elementi qui -->
+  <div
+    *ngFor="let el of startPositionAll; let i = index"
+    id="{{ i + 1 }}"
+    #elemento
+    appDraggable
+    class="elemento"
+  >
+    <app-icon [iconInfoInput]="el.info!"></app-icon>
+  </div>
 </div>

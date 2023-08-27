@@ -130,6 +130,26 @@ body {
   -webkit-text-size-adjust: none;
 }
 
+.red {
+  color: red;
+}
+
+.blu {
+  color: #3498db;
+}
+
+.yellow {
+  color: #faf200;
+}
+
+.green {
+  color: #19c509;
+}
+
+.black {
+  color: #000000;
+}
+
 .btn {
   padding: 0.5em 1em;
   border-radius: 10px;

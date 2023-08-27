@@ -62,7 +62,7 @@ export class DraggableDirective {
   @HostListener('touchend')
   onStop() {
     this.isDragging = false;
-    const id = +this.el.nativeElement.getAttribute('data-id');
+    const id = +this.el.nativeElement.getAttribute('id');
     this.lavagnaState.updateElementPosition(
       id,
       this.el.nativeElement.style.left,

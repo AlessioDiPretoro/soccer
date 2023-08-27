@@ -2,6 +2,8 @@
   <!-- <h1>class .modal: modale-add-icons works!</h1> -->
 
   <div class="modal-content">
-    <app-icon></app-icon>
+    <div *ngFor="let el of iconsList; let i = index" (click)="addToTable(el)">
+      <app-icon [iconInfoInput]="el"></app-icon>
+    </div>
   </div>
 </div>

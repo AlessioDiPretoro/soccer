@@ -106,19 +106,19 @@ input {
   font-size: 0.8em;
 }
 
-.animated {
-  animation: moveSlowly 1s forwards; /* Imposta la durata dell'animazione desiderata */
-}
+// .animated {
+//   animation: moveSlowly 1s forwards; /* Imposta la durata dell'animazione desiderata */
+// }
 
-@keyframes moveSlowly {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    // transform: translate(100px, 0);
-    transform: translate(var(--new-x), var(--new-y));
-  }
-}
+// @keyframes moveSlowly {
+//   0% {
+//     transform: translate(0, 0);
+//   }
+//   50% {
+//     transform: scale(1.2);
+//   }
+//   100% {
+//     // transform: translate(100px, 0);
+//     transform: translate(var(--new-x), var(--new-y));
+//   }
+// }

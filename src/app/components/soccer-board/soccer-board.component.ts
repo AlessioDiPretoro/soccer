@@ -14,6 +14,7 @@ import { NgForm } from '@angular/forms';
 import { AuthService } from 'src/app/Pages/auth/auth.service';
 import { IUser } from 'src/app/Pages/auth/interfaces/iuser';
 import { LavagnaStateService } from 'src/app/lavagna-state.service';
+import { Iicon } from 'src/app/Interfaces/iicon';
 
 @Component({
   selector: 'app-soccer-board',
@@ -42,21 +43,114 @@ export class SoccerBoardComponent implements AfterViewInit {
     private authSrv: AuthService
   ) {}
 
-  private startPositionAll: ElementPosition[] = [
-    { id: 1, x: '3%', y: '40%' },
-    { id: 2, x: '16%', y: '40%' },
-    { id: 3, x: '20%', y: '10%' },
-    { id: 4, x: '20%', y: '75%' },
-    { id: 5, x: '40%', y: '40%' },
-    { id: 6, x: '87%', y: '40%' },
-    { id: 7, x: '75%', y: '40%' },
-    { id: 8, x: '70%', y: '75%' },
-    { id: 9, x: '70%', y: '10%' },
-    { id: 10, x: '55%', y: '40%' },
-    { id: 11, x: '8.4%', y: '35%' },
+  startPositionAll: ElementPosition[] = [
+    {
+      id: 1,
+      x: '3%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '1',
+      },
+    },
+    {
+      id: 2,
+      x: '16%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '2',
+      },
+    },
+    {
+      id: 3,
+      x: '20%',
+      y: '10%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '3',
+      },
+    },
+    {
+      id: 4,
+      x: '20%',
+      y: '75%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '4',
+      },
+    },
+    {
+      id: 5,
+      x: '40%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '5',
+      },
+    },
+    {
+      id: 6,
+      x: '87%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '1',
+      },
+    },
+    {
+      id: 7,
+      x: '75%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '2',
+      },
+    },
+    {
+      id: 8,
+      x: '70%',
+      y: '75%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '3',
+      },
+    },
+    {
+      id: 9,
+      x: '70%',
+      y: '10%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '4',
+      },
+    },
+    {
+      id: 10,
+      x: '55%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '5',
+      },
+    },
+    {
+      id: 11,
+      x: '8.4%',
+      y: '35%',
+      info: { class: 'fa-solid fa-futbol', colorClass: 'yellow' },
+    },
   ];
-
-  private iconsList!: any[];
 
   ngAfterViewInit(): void {
     this.elementi.changes.subscribe(() => {
@@ -65,6 +159,7 @@ export class SoccerBoardComponent implements AfterViewInit {
 
     // Aggiorna le posizioni iniziali una volta che gli elementi sono pronti
     this.updateElementPositions();
+    console.log('startPositionAll', this.startPositionAll);
   }
 
   //carica da lavagna-service la posizione
@@ -78,7 +173,7 @@ export class SoccerBoardComponent implements AfterViewInit {
   private updatePlayersPosition(elementPositions: ElementPosition[]): void {
     elementPositions.forEach((pos) => {
       const element = this.elementi.find(
-        (el) => el.nativeElement.getAttribute('data-id') === `${pos.id}`
+        (el) => el.nativeElement.getAttribute('id') === `${pos.id}`
       );
       if (element) {
         // this.newX = pos.x; //deve essere in pixel

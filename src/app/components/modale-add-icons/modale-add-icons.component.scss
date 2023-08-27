@@ -21,4 +21,10 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 1em;
+}
+
+app-icon div i {
+  position: relative !important;
 }

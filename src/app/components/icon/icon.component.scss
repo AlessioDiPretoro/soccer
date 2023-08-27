@@ -1,20 +1,13 @@
-.elemento {
-  position: absolute;
-  color: #fff;
-  cursor: pointer;
-  padding: 10px 15px;
-  border-radius: 50%;
-}
-.elemento p,
-.elemento i {
-  position: absolute;
+i {
+  position: relative;
   font-size: 2.5em;
 }
-.elemento i {
-  font-size: 3em;
+p {
+  position: absolute;
+  font-size: 2.5em;
+  left: 38%;
+  top: 20%;
 }
-
-.elemento p {
-  right: -85%;
-  top: 85%;
+i {
+  font-size: 3em;
 }

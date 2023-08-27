@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { ElementPosition } from './../../Interfaces/element-position';
+import { Iicon } from './../../Interfaces/iicon';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-icon',
@@ -6,7 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./icon.component.scss'],
 })
 export class IconComponent {
-  addToTable() {
-    console.log('Clck addToTable');
+  @Input() iconInfoInput!: Iicon;
+
+  iconInfo!: ElementPosition;
+
+  addToTable(info: ElementPosition) {
+    console.log('Clck addToTable, info:', info);
   }
 }

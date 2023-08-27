@@ -9,17 +9,112 @@ import { AuthService } from './Pages/auth/auth.service';
 export class LavagnaStateService {
   constructor(private authSrv: AuthService) {}
   private elementPositions: ElementPosition[] = [
-    { id: 1, x: '3%', y: '40%' },
-    { id: 2, x: '16%', y: '40%' },
-    { id: 3, x: '20%', y: '10%' },
-    { id: 4, x: '20%', y: '75%' },
-    { id: 5, x: '40%', y: '40%' },
-    { id: 6, x: '87%', y: '40%' },
-    { id: 7, x: '75%', y: '40%' },
-    { id: 8, x: '70%', y: '75%' },
-    { id: 9, x: '70%', y: '10%' },
-    { id: 10, x: '55%', y: '40%' },
-    { id: 11, x: '8.4%', y: '35%' },
+    {
+      id: 1,
+      x: '3%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '1',
+      },
+    },
+    {
+      id: 2,
+      x: '16%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '2',
+      },
+    },
+    {
+      id: 3,
+      x: '20%',
+      y: '10%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '3',
+      },
+    },
+    {
+      id: 4,
+      x: '20%',
+      y: '75%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '4',
+      },
+    },
+    {
+      id: 5,
+      x: '40%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'blu',
+        value: '5',
+      },
+    },
+    {
+      id: 6,
+      x: '87%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '1',
+      },
+    },
+    {
+      id: 7,
+      x: '75%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '2',
+      },
+    },
+    {
+      id: 8,
+      x: '70%',
+      y: '75%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '3',
+      },
+    },
+    {
+      id: 9,
+      x: '70%',
+      y: '10%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '4',
+      },
+    },
+    {
+      id: 10,
+      x: '55%',
+      y: '40%',
+      info: {
+        class: 'fa-solid fa-shirt',
+        colorClass: 'red',
+        value: '5',
+      },
+    },
+    {
+      id: 11,
+      x: '8.4%',
+      y: '35%',
+      info: { class: 'fa-solid fa-futbol', colorClass: 'yellow' },
+    },
   ];
 
   allTattics: AllMoves[] = []; //da leggere nell'utente
