@@ -1,3 +1,4 @@
+import { ModaleAddIconsComponent } from './../modale-add-icons/modale-add-icons.component';
 import { AllMoves } from './../../Interfaces/all-moves';
 import { ElementPosition } from './../../Interfaces/element-position';
 import {
@@ -33,6 +34,7 @@ export class SoccerBoardComponent implements AfterViewInit {
   tatticToPlay!: AllMoves;
   tatticToPlayIndex: number = 0;
   maxH: number = window.innerHeight;
+  isModalOpen: boolean = false;
 
   constructor(
     private lavagnaState: LavagnaStateService,
@@ -53,6 +55,8 @@ export class SoccerBoardComponent implements AfterViewInit {
     { id: 10, x: '55%', y: '40%' },
     { id: 11, x: '8.4%', y: '35%' },
   ];
+
+  private iconsList!: any[];
 
   ngAfterViewInit(): void {
     this.elementi.changes.subscribe(() => {
@@ -92,10 +96,6 @@ export class SoccerBoardComponent implements AfterViewInit {
     this.isLoaded = false;
     this.tatticToPlayIndex = 0;
   }
-
-  // newRec() {
-  //   this.isNewInput = true;
-  // }
 
   startRec(form: NgForm) {
     this.isNewInput = false;
@@ -160,5 +160,13 @@ export class SoccerBoardComponent implements AfterViewInit {
         this.tatticToPlay.positions[this.tatticToPlayIndex - 1]
       );
     } else return;
+  }
+
+  showAddIcons() {
+    this.isModalOpen = true;
+  }
+
+  closeModal() {
+    this.isModalOpen = false;
   }
 }

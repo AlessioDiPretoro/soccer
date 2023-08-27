@@ -12,6 +12,8 @@ import { NgFor } from '@angular/common';
 import { LoginComponent } from './Pages/auth/login/login.component';
 import { RegisterComponent } from './Pages/auth/register/register.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ModaleAddIconsComponent } from './components/modale-add-icons/modale-add-icons.component';
+import { IconComponent } from './components/icon/icon.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     DraggableDirective,
     LoginComponent,
     RegisterComponent,
+    ModaleAddIconsComponent,
+    IconComponent,
   ],
   imports: [
     BrowserModule,

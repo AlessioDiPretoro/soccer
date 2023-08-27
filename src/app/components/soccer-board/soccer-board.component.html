@@ -5,6 +5,11 @@
     (click)="this.isNewInput = !this.isNewInput"
     >New</a
   >
+  <a class="btn btn-grey" (click)="showAddIcons()">+</a>
+  <app-modale-add-icons
+    *ngIf="isModalOpen"
+    (closeModal)="closeModal()"
+  ></app-modale-add-icons>
   <a class="btn btn-grey" *ngIf="isSave" (click)="save()">Save</a>
   <!-- <a class="btn btn-grey" *ngIf="!isSave" (click)="delet()">delet</a> -->
   <a class="btn btn-grey" *ngIf="!isSave" (click)="clear()">Reset pos</a>
