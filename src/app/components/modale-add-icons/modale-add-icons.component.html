@@ -1,5 +1,7 @@
 <div class="modal">
-  <!-- <h1>class .modal: modale-add-icons works!</h1> -->
+  <div class="closeContainer" (click)="onCloseModal()">
+    <i class="fa-regular fa-circle-xmark"></i>
+  </div>
 
   <div class="modal-content">
     <div *ngFor="let el of iconsList; let i = index" (click)="addToTable(el)">

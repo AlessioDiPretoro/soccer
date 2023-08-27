@@ -8,7 +8,7 @@ import { AuthService } from './Pages/auth/auth.service';
 })
 export class LavagnaStateService {
   constructor(private authSrv: AuthService) {}
-  private elementPositions: ElementPosition[] = [
+  elementPositions: ElementPosition[] = [
     {
       id: 1,
       x: '3%',
@@ -122,27 +122,57 @@ export class LavagnaStateService {
     name: '',
     positions: [[]],
   };
+
+  tempPositions: ElementPosition[] = [];
+
   isRecording: boolean = false;
 
   getElementPositions(): ElementPosition[] {
-    return this.elementPositions;
+    if (!this.isRecording) {
+      return this.elementPositions;
+    } else {
+      return this.newTattic.positions[this.newTattic.positions.length - 1];
+    }
   }
 
   updateElementPosition(id: number, x: string, y: string): void {
-    const index = this.elementPositions.findIndex((el) => el.id === id);
-
     if (!this.isRecording) {
+      const index = this.elementPositions.findIndex((el) => el.id === id);
       console.log('NOT RECORDING');
 
       this.elementPositions[index].x = x;
       this.elementPositions[index].y = y;
     } else {
+      //se id oggetto non presente in newTattic lo pusha alla fine
+      if (
+        id >
+        this.newTattic.positions[this.newTattic.positions.length - 1].length
+      ) {
+        const newEl = this.tempPositions.findIndex((_el) => _el.id === id);
+        this.newTattic.positions[this.newTattic.positions.length - 1].push({
+          ...this.tempPositions[newEl],
+        });
+        console.log('Aggiunto nuovo', this.newTattic.positions);
+      }
+      const index = this.newTattic.positions[
+        this.newTattic.positions.length - 1
+      ].findIndex((el) => el.id === id);
+      console.log(
+        'index',
+        index,
+        id,
+        'newTattic.positions',
+        this.newTattic.positions[this.newTattic.positions.length - 1]
+      );
       let thisPos: ElementPosition[] = [];
+
       this.newTattic.positions[this.newTattic.positions.length - 1].forEach(
         (el) => {
           thisPos.push({ ...el });
         }
       );
+      console.log('this.elementPositions', thisPos, 'x:', x);
+
       thisPos[index].x = x;
       thisPos[index].y = y;
       let len = this.newTattic.positions.length;
@@ -162,6 +192,7 @@ export class LavagnaStateService {
     this.isRecording = true;
   }
 
+  //viene chiamato per ultimare il salvataggio della tattica
   saveRec() {
     console.log(this.newTattic.positions.length);
 

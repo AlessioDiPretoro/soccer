@@ -1641,6 +1641,4095 @@
               }
             ]
           ]
+        },
+        {
+          "name": "Tatticaaaaaaaaaaaa",
+          "positions": [
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.0885%",
+                "y": "9.22903%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.0885%",
+                "y": "9.22903%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "30.4818%",
+                "y": "15.7663%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.0885%",
+                "y": "9.22903%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "71.2881%",
+                "y": "16.7276%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.0885%",
+                "y": "9.22903%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "39.823%",
+                "y": "16.1508%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.0885%",
+                "y": "9.22903%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "48.3776%",
+                "y": "14.4204%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.0885%",
+                "y": "9.22903%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "61.8486%",
+                "y": "20.1885%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "48.3776%",
+                "y": "14.4204%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "name": "AddItem",
+          "positions": [
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "36.0865%",
+                "y": "10.5749%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "36.0865%",
+                "y": "10.5749%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "41.1996%",
+                "y": "20.573%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "50%",
+                "y": "50%",
+                "info": {
+                  "class": "fa-solid fa-right-long",
+                  "colorClass": "black"
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Tatticaaaaaaaaaaaa",
+          "positions": [
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "37.6598%",
+                "y": "5.76814%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "50%",
+                "y": "50%",
+                "info": {
+                  "class": "fa-solid fa-up-long",
+                  "colorClass": "black"
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "name": "AddItem+3Spost",
+          "positions": [
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "29.6952%",
+                "y": "8.26767%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "50%",
+                "y": "50%",
+                "info": {
+                  "class": "fa-solid fa-up-long",
+                  "colorClass": "black"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "29.6952%",
+                "y": "8.26767%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "41.1013%",
+                "y": "17.1122%",
+                "info": {
+                  "class": "fa-solid fa-up-long",
+                  "colorClass": "black"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "29.6952%",
+                "y": "8.26767%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "52.9007%",
+                "y": "14.4204%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "41.1013%",
+                "y": "17.1122%",
+                "info": {
+                  "class": "fa-solid fa-up-long",
+                  "colorClass": "black"
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "name": "AddOk",
+          "positions": [
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "34.4149%",
+                "y": "7.49858%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "50%",
+                "y": "50%",
+                "info": {
+                  "class": "fa-solid fa-left-long",
+                  "colorClass": "black"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "34.4149%",
+                "y": "7.49858%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "64.0118%",
+                "y": "9.4213%",
+                "info": {
+                  "class": "fa-solid fa-left-long",
+                  "colorClass": "black"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "34.4149%",
+                "y": "7.49858%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "55.9489%",
+                "y": "8.26767%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "64.0118%",
+                "y": "9.4213%",
+                "info": {
+                  "class": "fa-solid fa-left-long",
+                  "colorClass": "black"
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Add123",
+          "positions": [
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "29.4985%",
+                "y": "16.7276%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "29.4985%",
+                "y": "16.7276%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "36.0865%",
+                "y": "20.9576%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "50%",
+                "y": "50%",
+                "info": {
+                  "class": "fa-solid fa-right-long",
+                  "colorClass": "black"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "29.4985%",
+                "y": "16.7276%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "36.0865%",
+                "y": "20.9576%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "15.1426%",
+                "y": "34.9934%",
+                "info": {
+                  "class": "fa-solid fa-right-long",
+                  "colorClass": "black"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "29.4985%",
+                "y": "16.7276%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "36.0865%",
+                "y": "20.9576%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "22.1239%",
+                "y": "34.6088%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "15.1426%",
+                "y": "34.9934%",
+                "info": {
+                  "class": "fa-solid fa-right-long",
+                  "colorClass": "black"
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "name": "ASf3e123",
+          "positions": [
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "25.3687%",
+                "y": "10.5749%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "50%",
+                "y": "50%",
+                "info": {
+                  "class": "fa-solid fa-up-long",
+                  "colorClass": "black"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "25.3687%",
+                "y": "10.5749%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "41.4946%",
+                "y": "29.8021%",
+                "info": {
+                  "class": "fa-solid fa-up-long",
+                  "colorClass": "black"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40.0197%",
+                "y": "13.0745%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "25.3687%",
+                "y": "10.5749%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "41.4946%",
+                "y": "29.8021%",
+                "info": {
+                  "class": "fa-solid fa-up-long",
+                  "colorClass": "black"
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Prova01",
+          "positions": [
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.6785%",
+                "y": "9.61357%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.6785%",
+                "y": "9.61357%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "36.0865%",
+                "y": "10.1904%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "41.4946%",
+                "y": "29.8021%"
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.6785%",
+                "y": "9.61357%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "36.0865%",
+                "y": "10.1904%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "41.4946%",
+                "y": "29.8021%"
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "30.6785%",
+                "y": "9.61357%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "42.1829%",
+                "y": "18.6503%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "36.0865%",
+                "y": "10.1904%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "41.4946%",
+                "y": "29.8021%"
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Tatticaaaaaaaaaaaa",
+          "positions": [
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "50%",
+                "y": "50%",
+                "info": {
+                  "class": "fa-solid fa-up-long",
+                  "colorClass": "black"
+                }
+              }
+            ],
+            [
+              {
+                "id": 1,
+                "x": "3%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 2,
+                "x": "16%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 3,
+                "x": "20%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 4,
+                "x": "20%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 5,
+                "x": "40%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "blu",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 6,
+                "x": "87%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "1"
+                }
+              },
+              {
+                "id": 7,
+                "x": "75%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "2"
+                }
+              },
+              {
+                "id": 8,
+                "x": "70%",
+                "y": "75%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "3"
+                }
+              },
+              {
+                "id": 9,
+                "x": "70%",
+                "y": "10%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "4"
+                }
+              },
+              {
+                "id": 10,
+                "x": "55%",
+                "y": "40%",
+                "info": {
+                  "class": "fa-solid fa-shirt",
+                  "colorClass": "red",
+                  "value": "5"
+                }
+              },
+              {
+                "id": 11,
+                "x": "8.4%",
+                "y": "35%",
+                "info": {
+                  "class": "fa-solid fa-futbol",
+                  "colorClass": "yellow"
+                }
+              },
+              {
+                "id": 12,
+                "x": "42.7729%",
+                "y": "25.5721%",
+                "info": {
+                  "class": "fa-solid fa-up-long",
+                  "colorClass": "black"
+                }
+              }
+            ]
+          ]
         }
       ]
     }

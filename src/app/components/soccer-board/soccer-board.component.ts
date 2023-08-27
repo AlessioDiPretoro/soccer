@@ -152,36 +152,57 @@ export class SoccerBoardComponent implements AfterViewInit {
     },
   ];
 
+  nowPositionAll: ElementPosition[] = [];
+
   ngAfterViewInit(): void {
-    this.elementi.changes.subscribe(() => {
-      this.updateElementPositions();
+    this.startPositionAll.forEach((pos) => {
+      this.nowPositionAll.push(pos);
     });
 
+    //   //viene chiamato ogni volta che cambia il numero di elementi evocati...non lo sto usando
+    // this.elementi.changes.subscribe(() => {
+    //   // this.updateElementPositions();
+    //   // console.log('ElementiChanged');
+    // });
+
     // Aggiorna le posizioni iniziali una volta che gli elementi sono pronti
+    // era attivo, sembra funzioni anche senza
     this.updateElementPositions();
-    console.log('startPositionAll', this.startPositionAll);
+    // console.log('startPositionAll', this.startPositionAll);
   }
 
   //carica da lavagna-service la posizione
   private updateElementPositions(): void {
     const elementPositions = this.lavagnaState.getElementPositions();
     this.updatePlayersPosition(elementPositions);
+    // console.log('updateElementPositions', elementPositions);
   }
   newX!: string;
   newY!: string;
-  //aggiorna la posizione di ogni giocatore a seconda della mossa attuale
+  //aggiorna la posizione di ogni giocatore a seconda della mossa attuale/ricevuta
   private updatePlayersPosition(elementPositions: ElementPosition[]): void {
+    console.log('elementPositions', elementPositions);
     elementPositions.forEach((pos) => {
-      const element = this.elementi.find(
-        (el) => el.nativeElement.getAttribute('id') === `${pos.id}`
-      );
-      if (element) {
-        // this.newX = pos.x; //deve essere in pixel
-        // console.log('this.newX', this.newX);
-        // this.newY = pos.y;
-        this.renderer.setStyle(element.nativeElement, 'left', `${pos.x}`);
-        this.renderer.setStyle(element.nativeElement, 'top', `${pos.y}`);
+      // console.log('pos:', pos);
+      if (pos.id > this.nowPositionAll.length) {
+        console.log('Ok new IF push new item_id');
+
+        this.nowPositionAll.push({ ...pos });
+        console.log('this.nowPositionAll', this.nowPositionAll);
       }
+      setTimeout(() => {
+        const element = this.elementi.find(
+          (el) => el.nativeElement.getAttribute('id') === `${pos.id}`
+        );
+        if (element) {
+          // this.newX = pos.x; //deve essere in pixel
+          // console.log('this.ele', element, pos.x, pos.y);
+          this.renderer.setStyle(element.nativeElement, 'left', `${pos.x}`);
+          this.renderer.setStyle(element.nativeElement, 'top', `${pos.y}`);
+        } else {
+          console.error('elemento non trovato', pos, 'element:', element);
+        }
+      }, 300);
     });
   }
 
@@ -190,8 +211,15 @@ export class SoccerBoardComponent implements AfterViewInit {
     this.updatePlayersPosition(this.startPositionAll);
     this.isLoaded = false;
     this.tatticToPlayIndex = 0;
+    this.nowPositionAll.length = 0;
+    console.log('this.nowPositionAll1', this.nowPositionAll);
+    this.startPositionAll.forEach((p) => {
+      this.nowPositionAll.push({ ...p });
+    });
+    console.log('this.nowPositionAll2', this.nowPositionAll);
   }
 
+  //viene chiamata dopo aver inserito il nome della nuova tattica
   startRec(form: NgForm) {
     this.isNewInput = false;
     this.isSave = true;
@@ -242,9 +270,21 @@ export class SoccerBoardComponent implements AfterViewInit {
   }
   nextMove() {
     if (this.tatticToPlayIndex < this.tatticToPlay.positions.length) {
+      // this.nowPositionAll = [];
+      // this.tatticToPlay.positions[this.tatticToPlayIndex].forEach((pos) => {
+      //   this.nowPositionAll.push({ ...pos });
+      // });
+      console.log('Now nowPositionAll', this.nowPositionAll);
+
+      //con set timeout funziona, come se ci mette troppo tempo a fare ngFor e prima parte la funzione
+
       this.updatePlayersPosition(
         this.tatticToPlay.positions[this.tatticToPlayIndex]
       );
+      // console.log(
+      //   'Now tatticToPlayIndex',
+      //   this.tatticToPlay.positions[this.tatticToPlayIndex]
+      // );
       this.tatticToPlayIndex += 1;
     } else return;
   }
@@ -261,7 +301,33 @@ export class SoccerBoardComponent implements AfterViewInit {
     this.isModalOpen = true;
   }
 
+  updateNowPositionAll() {
+    this.nowPositionAll = [];
+    this.lavagnaState.newTattic.positions[
+      this.lavagnaState.newTattic.positions.length - 1
+    ].forEach((pos) => {
+      this.nowPositionAll.push({ ...pos });
+    });
+  }
+
   closeModal() {
     this.isModalOpen = false;
+
+    console.log('lavagnaState tempPositions', this.lavagnaState.tempPositions);
+    // this.updateNowPositionAll();
+
+    this.nowPositionAll = [];
+    this.lavagnaState.tempPositions.forEach((p) => {
+      this.nowPositionAll.push({ ...p });
+    });
+
+    this.updatePlayersPosition(this.lavagnaState.tempPositions);
+
+    // vecchio OK
+    // this.updatePlayersPosition(
+    //   this.lavagnaState.newTattic.positions[
+    //     this.lavagnaState.newTattic.positions.length - 1
+    //   ]
+    // );
   }
 }
