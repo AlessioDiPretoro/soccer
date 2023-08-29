@@ -56,11 +56,15 @@ export class ModaleAddIconsComponent {
         ].length + 1,
       x: '50%',
       y: '50%',
-      info: iconInfo,
+      info: {
+        class: iconInfo.class,
+        colorClass: iconInfo.colorClass,
+        value: iconInfo.value,
+      },
     };
     // console.log('clicked, iconPos:', iconPos);
 
-    //NUOVO BOH
+    //NUOVO BOH - crea tempPosition SOLO per visualizzare il nuovo oggetto creato
     this.lavagnaSrv.tempPositions = [];
     this.lavagnaSrv.newTattic.positions[
       this.lavagnaSrv.newTattic.positions.length - 1
@@ -68,7 +72,6 @@ export class ModaleAddIconsComponent {
       this.lavagnaSrv.tempPositions.push({ ...p });
     });
     this.lavagnaSrv.tempPositions.push(iconPos);
-
     //vecchio OK
 
     // this.lavagnaSrv.newTattic.positions[

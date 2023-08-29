@@ -181,7 +181,7 @@ export class SoccerBoardComponent implements AfterViewInit {
   newY!: string;
   //aggiorna la posizione di ogni giocatore a seconda della mossa attuale/ricevuta
   private updatePlayersPosition(elementPositions: ElementPosition[]): void {
-    console.log('elementPositions', elementPositions);
+    console.log('elementPositions UpdatePlayersPosition', elementPositions);
     elementPositions.forEach((pos) => {
       // console.log('pos:', pos);
       if (pos.id > this.nowPositionAll.length) {
@@ -312,17 +312,24 @@ export class SoccerBoardComponent implements AfterViewInit {
 
   closeModal() {
     this.isModalOpen = false;
-
+    console.log(
+      'newTattCloseModalBefore',
+      this.lavagnaState.newTattic.positions
+    );
     console.log('lavagnaState tempPositions', this.lavagnaState.tempPositions);
     // this.updateNowPositionAll();
 
-    this.nowPositionAll = [];
+    //aggiorna i valori di nowPositionAll... cos'era??? - forse usate in this.up---al posto di temp...
+    this.nowPositionAll.length = 0;
     this.lavagnaState.tempPositions.forEach((p) => {
       this.nowPositionAll.push({ ...p });
     });
 
     this.updatePlayersPosition(this.lavagnaState.tempPositions);
-
+    // console.log(
+    //   'newTattCloseModalAfter',
+    //   this.lavagnaState.newTattic.positions
+    // );
     // vecchio OK
     // this.updatePlayersPosition(
     //   this.lavagnaState.newTattic.positions[

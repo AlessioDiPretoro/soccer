@@ -143,16 +143,31 @@ export class LavagnaStateService {
       this.elementPositions[index].x = x;
       this.elementPositions[index].y = y;
     } else {
+      console.log('Start RECORDING');
+
       //se id oggetto non presente in newTattic lo pusha alla fine
       if (
         id >
         this.newTattic.positions[this.newTattic.positions.length - 1].length
       ) {
-        const newEl = this.tempPositions.findIndex((_el) => _el.id === id);
+        console.log('this.tempPositions', this.tempPositions);
+        console.log('newTatt', this.newTattic.positions); //qui c'è un elemento di troppo...
+
+        const newElIndex = this.tempPositions.findIndex((_el) => _el.id === id);
+        console.log('newEl Element', this.tempPositions[newElIndex]); //sbagliato...
+
         this.newTattic.positions[this.newTattic.positions.length - 1].push({
-          ...this.tempPositions[newEl],
+          ...this.tempPositions[newElIndex],
         });
-        console.log('Aggiunto nuovo', this.newTattic.positions);
+
+        this.newTattic.positions[this.newTattic.positions.length - 1][
+          newElIndex
+        ].x = x;
+        this.newTattic.positions[this.newTattic.positions.length - 1][
+          newElIndex
+        ].y = y;
+        // return;
+        // console.log('Aggiunto nuovo', this.newTattic.positions);
       }
       const index = this.newTattic.positions[
         this.newTattic.positions.length - 1
@@ -162,7 +177,7 @@ export class LavagnaStateService {
         index,
         id,
         'newTattic.positions',
-        this.newTattic.positions[this.newTattic.positions.length - 1]
+        this.newTattic.positions
       );
       let thisPos: ElementPosition[] = [];
 
@@ -199,8 +214,10 @@ export class LavagnaStateService {
     //verifica che non ci siano un errore nel salvataggio nelle posizioni
     if (this.newTattic.positions.length == 0) return console.log('ERROR');
 
+    //aggiunge la nuova tattica alla lista dello user... forse non funziona bene...
     this.allTattics.push({ ...this.newTattic });
-    console.log('allTattics', this.allTattics);
+    console.log('allTatticsUserLoaded', this.allTattics);
+
     this.isRecording = false;
 
     //salva nello user:
