@@ -87,10 +87,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "soccer:build:production"
+              "buildTarget": "soccer:build:production"
             },
             "development": {
-              "browserTarget": "soccer:build:development"
+              "buildTarget": "soccer:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -98,7 +98,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "soccer:build"
+            "buildTarget": "soccer:build"
           }
         },
         "test": {
